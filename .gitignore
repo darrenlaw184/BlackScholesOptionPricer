@@ -1,0 +1,212 @@
+# Black-Scholes Option Pricer - Git Ignore File
+
+# Build directories
+build/
+Build/
+out/
+cmake-build-*/
+
+# External dependencies (downloaded by setup scripts)
+external/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+BlackScholesOptionPricer
+BlackScholesOptionPricer.exe
+
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+*.ko
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Debug information
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Profiling
+gmon.out
+bb.out
+
+# Code coverage
+*.gcov
+*.gcda
+*.gcno
+
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Qt Creator
+CMakeLists.txt.user*
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.log
+*.bak
+*.orig
+
+# Package managers
+vcpkg_installed/
+packages/
+conan.lock
+conanbuildinfo.cmake
+conaninfo.txt
+
+# Documentation generation
+doc/
+docs/html/
+docs/latex/
+Doxyfile.bak
+
+# Testing
+Testing/
+test_results/
+*.test
+
+# Backup files
+*.backup
+*~
+
+# Editor temporary files
+.#*
+\#*#
+
+# Compressed files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Local configuration
+local_config.hpp
+config.local
+.env
+.env.local
+
+# Performance analysis
+*.prof
+perf.data*
+cachegrind.out.*
+callgrind.out.*
+massif.out.*
+
+# Static analysis
+cppcheck-report.xml
+*.sarif
+
+# Dependency directories that might be created manually
+third_party/
+dependencies/
+libs/
+
+# IDE-specific files
+.clangd/
+.ccls-cache/
+compile_commands.json
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
+
+# Python cache (if any Python scripts are added)
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js (if any web components are added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
